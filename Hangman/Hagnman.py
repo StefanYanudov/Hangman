@@ -166,7 +166,6 @@ def restart_lost_game():
     count = 0
     if start_window:
         start_window.destroy()
-    choose_word()
     start_a_game()
     lost_game_window.withdraw()
 
@@ -177,7 +176,6 @@ def restart_won_game():
     count = 0
     if start_window:
         start_window.destroy()
-    choose_word()
     start_a_game()
     won_game_window.withdraw()
 
